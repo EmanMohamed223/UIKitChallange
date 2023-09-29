@@ -11,18 +11,14 @@ class IteamDetailsViewController: UIViewController,UICollectionViewDataSource, U
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
          return 4
     }
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell: IngredCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "IngredCollectionViewCell", for: indexPath) as! IngredCollectionViewCell
         return cell
     }
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        return CGSize(width: 70, height: ingrediansCollection.heightAnchor-10)
-////    }
-    
     @IBOutlet weak var ingrediansCollection: UICollectionView!
-    
+    var additionView: DropDownView?
     @IBOutlet weak var deletButton: UIButton!
+    @IBOutlet weak var dropDownView: UIView!
     @IBOutlet weak var circlerViewForHeartButon: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +35,10 @@ class IteamDetailsViewController: UIViewController,UICollectionViewDataSource, U
 //            layout.minimumLineSpacing = 31
 //        ingrediansCollection!.collectionViewLayout = layout
     }
+    //    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    //        return CGSize(width: 70, height: ingrediansCollection.heightAnchor-10)
+    ////    }
+        
     func configureNavigationBar() {
         let backButton = UIBarButtonItem()
         backButton.title = ""
@@ -46,5 +46,16 @@ class IteamDetailsViewController: UIViewController,UICollectionViewDataSource, U
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
         backButton.width = 27.08
        // backButton.height = 17.42
+    }
+    @IBAction func dropDownAction(_ sender: Any) {
+        if let additionView = additionView {
+            additionView.removeFromSuperview()
+                    self.additionView = nil // Clear the reference
+        }else{
+            additionView = Bundle.main.loadNibNamed("DropDownView", owner: self, options: nil)?.first as? DropDownView
+                        if let additionView = additionView {
+                            dropDownView.addSubview(additionView)
+                        }
+        }
     }
 }

@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		031333AB2AC5CA5E00EB9290 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031333A92AC5CA5E00EB9290 /* CollectionViewCell.swift */; };
-		031333AC2AC5CA5E00EB9290 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031333AA2AC5CA5E00EB9290 /* CollectionViewCell.xib */; };
+		03886F0A2AC6E85E002EF4C6 /* IngredCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03886F082AC6E85E002EF4C6 /* IngredCollectionViewCell.swift */; };
+		03886F0B2AC6E85E002EF4C6 /* IngredCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03886F092AC6E85E002EF4C6 /* IngredCollectionViewCell.xib */; };
+		03886F0F2AC6EB03002EF4C6 /* DropDwonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03886F0E2AC6EB03002EF4C6 /* DropDwonView.xib */; };
+		03886F112AC6EB16002EF4C6 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03886F102AC6EB16002EF4C6 /* DropDownView.swift */; };
+		03886F132AC6EB86002EF4C6 /* UITableView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03886F122AC6EB86002EF4C6 /* UITableView+RegisterCell.swift */; };
+		03886F172AC6EC18002EF4C6 /* AdditionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03886F152AC6EC18002EF4C6 /* AdditionTableViewCell.swift */; };
+		03886F182AC6EC18002EF4C6 /* AdditionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03886F162AC6EC18002EF4C6 /* AdditionTableViewCell.xib */; };
 		03998B762AC1CB9D007890E9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03998B742AC1CB9D007890E9 /* FirstViewController.swift */; };
 		03998B772AC1CB9D007890E9 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03998B752AC1CB9D007890E9 /* FirstViewController.xib */; };
 		03998B792AC1D533007890E9 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03998B782AC1D533007890E9 /* UIView.swift */; };
@@ -41,8 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		031333A92AC5CA5E00EB9290 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		031333AA2AC5CA5E00EB9290 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		03886F082AC6E85E002EF4C6 /* IngredCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredCollectionViewCell.swift; sourceTree = "<group>"; };
+		03886F092AC6E85E002EF4C6 /* IngredCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredCollectionViewCell.xib; sourceTree = "<group>"; };
+		03886F0E2AC6EB03002EF4C6 /* DropDwonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDwonView.xib; sourceTree = "<group>"; };
+		03886F102AC6EB16002EF4C6 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		03886F122AC6EB86002EF4C6 /* UITableView+RegisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterCell.swift"; sourceTree = "<group>"; };
+		03886F152AC6EC18002EF4C6 /* AdditionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionTableViewCell.swift; sourceTree = "<group>"; };
+		03886F162AC6EC18002EF4C6 /* AdditionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdditionTableViewCell.xib; sourceTree = "<group>"; };
 		03998B742AC1CB9D007890E9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		03998B752AC1CB9D007890E9 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		03998B782AC1D533007890E9 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
@@ -119,8 +129,13 @@
 				03998B742AC1CB9D007890E9 /* FirstViewController.swift */,
 				03998B752AC1CB9D007890E9 /* FirstViewController.xib */,
 				03998B782AC1D533007890E9 /* UIView.swift */,
-				031333A92AC5CA5E00EB9290 /* CollectionViewCell.swift */,
-				031333AA2AC5CA5E00EB9290 /* CollectionViewCell.xib */,
+				03886F082AC6E85E002EF4C6 /* IngredCollectionViewCell.swift */,
+				03886F092AC6E85E002EF4C6 /* IngredCollectionViewCell.xib */,
+				03886F0E2AC6EB03002EF4C6 /* DropDwonView.xib */,
+				03886F102AC6EB16002EF4C6 /* DropDownView.swift */,
+				03886F122AC6EB86002EF4C6 /* UITableView+RegisterCell.swift */,
+				03886F152AC6EC18002EF4C6 /* AdditionTableViewCell.swift */,
+				03886F162AC6EC18002EF4C6 /* AdditionTableViewCell.xib */,
 			);
 			path = IteamDetails;
 			sourceTree = "<group>";
@@ -248,9 +263,11 @@
 			files = (
 				03B1683B2AC1BE2600BB172C /* IteamDetailsViewController.xib in Resources */,
 				03ED18C92AC1B9D50092E58B /* LaunchScreen.storyboard in Resources */,
+				03886F182AC6EC18002EF4C6 /* AdditionTableViewCell.xib in Resources */,
 				03ED18C62AC1B9D50092E58B /* Assets.xcassets in Resources */,
+				03886F0B2AC6E85E002EF4C6 /* IngredCollectionViewCell.xib in Resources */,
 				03998B772AC1CB9D007890E9 /* FirstViewController.xib in Resources */,
-				031333AC2AC5CA5E00EB9290 /* CollectionViewCell.xib in Resources */,
+				03886F0F2AC6EB03002EF4C6 /* DropDwonView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +294,11 @@
 			files = (
 				03998B792AC1D533007890E9 /* UIView.swift in Sources */,
 				03ED18BA2AC1B9D30092E58B /* AppDelegate.swift in Sources */,
-				031333AB2AC5CA5E00EB9290 /* CollectionViewCell.swift in Sources */,
+				03886F132AC6EB86002EF4C6 /* UITableView+RegisterCell.swift in Sources */,
 				03ED18BC2AC1B9D40092E58B /* SceneDelegate.swift in Sources */,
+				03886F172AC6EC18002EF4C6 /* AdditionTableViewCell.swift in Sources */,
+				03886F112AC6EB16002EF4C6 /* DropDownView.swift in Sources */,
+				03886F0A2AC6E85E002EF4C6 /* IngredCollectionViewCell.swift in Sources */,
 				03B1683A2AC1BE2600BB172C /* IteamDetailsViewController.swift in Sources */,
 				03998B762AC1CB9D007890E9 /* FirstViewController.swift in Sources */,
 			);

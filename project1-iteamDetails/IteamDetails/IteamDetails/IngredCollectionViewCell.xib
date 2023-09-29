@@ -17,49 +17,38 @@
                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mB5-KB-3d8">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5jJ-1s-p1h">
                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="olive-oil-968657_1920 1" translatesAutoresizingMaskIntoConstraints="NO" id="dA3-RG-BdC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="agriculture-1851424_1920 1" translatesAutoresizingMaskIntoConstraints="NO" id="iSN-0H-bJ4">
                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="dA3-RG-BdC" secondAttribute="trailing" id="7Pr-JP-lGD"/>
-                            <constraint firstAttribute="bottom" secondItem="dA3-RG-BdC" secondAttribute="bottom" id="JB4-nV-mKV"/>
-                            <constraint firstItem="dA3-RG-BdC" firstAttribute="leading" secondItem="mB5-KB-3d8" secondAttribute="leading" id="RoT-Vb-LBH"/>
-                            <constraint firstItem="dA3-RG-BdC" firstAttribute="top" secondItem="mB5-KB-3d8" secondAttribute="top" id="n85-7y-mBr"/>
+                            <constraint firstItem="iSN-0H-bJ4" firstAttribute="top" secondItem="5jJ-1s-p1h" secondAttribute="top" id="GmW-AP-2Cw"/>
+                            <constraint firstAttribute="trailing" secondItem="iSN-0H-bJ4" secondAttribute="trailing" id="M9c-eG-zDq"/>
+                            <constraint firstAttribute="bottom" secondItem="iSN-0H-bJ4" secondAttribute="bottom" id="jdA-Ig-r2t"/>
+                            <constraint firstItem="iSN-0H-bJ4" firstAttribute="leading" secondItem="5jJ-1s-p1h" secondAttribute="leading" id="y3m-1x-gst"/>
                         </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                <real key="value" value="8"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                <real key="value" value="1"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="mB5-KB-3d8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6eA-tQ-9YC"/>
-                <constraint firstAttribute="trailing" secondItem="mB5-KB-3d8" secondAttribute="trailing" id="LtB-e0-ngb"/>
-                <constraint firstAttribute="bottom" secondItem="mB5-KB-3d8" secondAttribute="bottom" id="XLU-Nt-DD6"/>
-                <constraint firstItem="mB5-KB-3d8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zOn-LY-QV1"/>
+                <constraint firstAttribute="bottom" secondItem="5jJ-1s-p1h" secondAttribute="bottom" id="1cn-sf-fft"/>
+                <constraint firstItem="5jJ-1s-p1h" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MH8-Ji-yEV"/>
+                <constraint firstItem="5jJ-1s-p1h" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ewD-kD-3e3"/>
+                <constraint firstAttribute="trailing" secondItem="5jJ-1s-p1h" secondAttribute="trailing" id="gRf-Za-RSq"/>
             </constraints>
             <connections>
-                <outlet property="image" destination="dA3-RG-BdC" id="NPg-5a-K7e"/>
+                <outlet property="imageeee" destination="iSN-0H-bJ4" id="z0t-6f-SkG"/>
             </connections>
-            <point key="canvasLocation" x="-5" y="21"/>
+            <point key="canvasLocation" x="40" y="21"/>
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="olive-oil-968657_1920 1" width="68" height="47"/>
+        <image name="agriculture-1851424_1920 1" width="69" height="47"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
